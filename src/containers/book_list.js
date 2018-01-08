@@ -16,7 +16,7 @@ class BookList extends Component {
                             onClick={() => { this.props.selectBook(book)} }>
                             {book.title}
                             <button  
-                                className = "btn btn-default" className=" glyphicon glyphicon-star" 
+                                className = "btn btn-default glyphicon glyphicon-star favorite" 
                                 onClick={() => { this.props.markBook(book)} }
                                 > 
                             </button> 

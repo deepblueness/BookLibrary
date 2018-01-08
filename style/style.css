@@ -1,0 +1,54 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-group-item, .panel-default
+{
+    font-size: 16px;
+}
+.list-group-item:hover { 
+    transform: translateY(2px);
+    color: green;
+    cursor: pointer;
+ }
+ .panel-default:hover { 
+    transform: translateY(2px);
+    color:  green;
+ }
+
+ .favorite {
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    display: none !important;
+   
+}
+
+.add {
+     font-size: 22px;
+     background: none;
+     border: none;
+     line-height: 1;
+     cursor: pointer;
+     margin-left: 12px !important;
+}
+
+.favorite:focus { 
+    outline: none;
+    color: green; }
+
+
+.list-group-item:hover .favorite { 
+    display: inline-block !important;
+    margin-left: 12px;
+ }
+
+.pages {
+    margin-left: 12px;
+}
+
+.input:focus {
+    border: green !important;
+}
+
